@@ -1,0 +1,40 @@
+**Build a real estate website**
+
+Project: A clone of "realtor.com"
+
+Backend
+* NodeJS
+* MongoDB as a database
+* Moongose as an ODM (Object Document Mapper) for MongoDB
+* APIs
+* ExpressJS for serving a static frontend
+
+Frontend
+* NextJs/React for UI, functional and using react hooks
+* Tailwind CSS for styles
+
+Deployment
+* Deployed on Heroku, with staging and production apps in a pipeline
+* Repository on GitHub, using issues or GH projects to track progress
+
+General
+* Web app, but designed in a mobile first approach
+* Responsive (looks good and usable in Mobile and Desktop)
+* Using NodeJS and JavaScript for backend and frontend respectively
+* Using Prettier to format code
+* Auth with JWTs (JSON Web Tokens)
+* Using strict ESLint rules, with the Airbnb AND a11y rulesets (for accessibility)
+
+Requirements
+* 90+ on Perfomance score in Lighthouse audit
+* 100 score on Accessibility score in Lighthouse audit
+* 90+ on Best Practices score in Lighthouse Audit
+
+Bonus
+* It is a PWA (progressive web app)
+* Using CircleCI for CI flows 
+
+User stories
+* As a user, I should see a splash screen when I first open the app, showing the app's logo.
+* As a user, I should see a login screen where I can log in or sign up for the first time.
+* As a user, given that I'm logged in, I should see the home.
